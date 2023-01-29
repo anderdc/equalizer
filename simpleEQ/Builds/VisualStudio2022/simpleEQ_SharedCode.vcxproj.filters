@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="simpleEQ\Source">
+      <UniqueIdentifier>{051E4692-1BEA-3B28-9205-E29F5F357FB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simpleEQ">
+      <UniqueIdentifier>{2B8D0173-A5D1-BD1D-BE68-EC251CCB5E89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
+      <Filter>simpleEQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginEditor.cpp">
+      <Filter>simpleEQ\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PluginProcessor.h">
+      <Filter>simpleEQ\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginEditor.h">
+      <Filter>simpleEQ\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
